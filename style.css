@@ -225,15 +225,18 @@ a :hover {
     transition-duration: 0.7s;
     
 }
-.cat-img-pizzas {
+
+.cat-img{
   display: flex;
   align-self: center;
+}
+.pizzas {
   width: 60px;
   height: 60px;
   left: 154px;
   top: 846px;
 }
-.cat-img-burguer {
+.burguer {
   display: flex;
   align-self: center;
   width: 85px;
@@ -241,7 +244,7 @@ a :hover {
   left: 330px;
   top: 842px;
 }
-.cat-img-fried {
+.fried {
   display: flex;
   align-self: center;
   width: 83px;
@@ -249,7 +252,7 @@ a :hover {
   left: 511px;
   top: 839px;
 }
-.cat-img-slice {
+.slice {
   display: flex;
   align-self: center;
   width: 85px;
@@ -257,7 +260,7 @@ a :hover {
   left: 694px;
   top: 837px;
 }
-.cat-img-wrap {
+.wrap {
   display: flex;
   align-self: center;
   width: 86px;
@@ -265,7 +268,7 @@ a :hover {
   left: 878px;
   top: 839px;
 }
-.cat-img-mexican {
+.mexican {
   display: flex;
   align-self: center;
   width: 85px;
@@ -273,7 +276,7 @@ a :hover {
   left: 1060px;
   top: 839px;
 }
-.cat-img-float {
+.float {
   display: flex;
   align-self: center;
   width: 86px;
@@ -286,52 +289,20 @@ a :hover {
   text-align: center;
   flex-direction: column;
   margin-top: 20px;
-  color: #fffff
-}
-
-
-
-.card-prize {
-  display: flex;
-  font-family: "montserrat";
-  font-style: normal;
-  font-weight: 700;
-  line-height: 131.02%;
-  background: var(--bg-gradient);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  /* text-fill-color: transparent; */
-}
-.card-add {
-  display: flex;
-  justify-content: center;
-  width: 85px;
-  height: 29px;
-  left: 442px;
-  top: 620px;
-  margin: 35px 10px 0px 0px;
-  background: var(--bg-gradient);
-  border-radius: 17.5px;
-}
-.card-add p {
-  display: flex;
-  align-self: center;
-  justify-content: center;
-  width: 54px;
-  height: 15px;
-  left: 458px;
-  top: 627px;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 15px;
-  letter-spacing: 0.5px;
   color: #ffffff;
 }
-.card-add a {
-  display: flex;
-  text-decoration: none;
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 5px;
+    background: var(--bg-gradient);
+    border-radius: 5px;
+    margin: 8% 0;
 }
+
 
 /* FOOTER */
 
