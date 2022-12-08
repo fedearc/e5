@@ -201,6 +201,7 @@ a :hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-content: center;
   gap: 40px;
 }
 
@@ -216,12 +217,19 @@ a :hover {
   justify-content: center;
   box-shadow: 0px 0px 50px rgba(1, 2, 7, 0.5);
 }
-
+.hover:hover{
+    width: 80px;
+    height: 80px;
+    transform: rotate(27deg) scale(1.1);
+    transition-property: all;
+    transition-duration: 0.7s;
+    
+}
 .cat-img-pizzas {
   display: flex;
   align-self: center;
-  width: 71px;
-  height: 71px;
+  width: 60px;
+  height: 60px;
   left: 154px;
   top: 846px;
 }
@@ -278,8 +286,11 @@ a :hover {
   text-align: center;
   flex-direction: column;
   margin-top: 20px;
-  
+  color: #fffff
 }
+
+
+
 .card-prize {
   display: flex;
   font-family: "montserrat";
