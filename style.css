@@ -234,7 +234,14 @@ a :hover {
   left: 878px;
   top: 839px;
 }
-
+ .pizza{
+  display: flex;
+  align-self: center;
+  width: 65px;
+  height: 65px;
+  left: 878px;
+  top: 839px;
+ }
 .cat-text {
   text-align: center;
   flex-direction: column;
