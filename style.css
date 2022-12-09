@@ -229,60 +229,10 @@ a :hover {
 .cat-img{
   display: flex;
   align-self: center;
-}
-.pizzas {
-  width: 60px;
-  height: 60px;
-  left: 154px;
-  top: 846px;
-}
-.burguer {
-  display: flex;
-  align-self: center;
-  width: 85px;
-  height: 85px;
-  left: 330px;
-  top: 842px;
-}
-.fried {
-  display: flex;
-  align-self: center;
-  width: 83px;
-  height: 83px;
-  left: 511px;
-  top: 839px;
-}
-.slice {
-  display: flex;
-  align-self: center;
-  width: 85px;
-  height: 86px;
-  left: 694px;
-  top: 837px;
-}
-.wrap {
-  display: flex;
-  align-self: center;
   width: 86px;
   height: 86px;
   left: 878px;
   top: 839px;
-}
-.mexican {
-  display: flex;
-  align-self: center;
-  width: 85px;
-  height: 86px;
-  left: 1060px;
-  top: 839px;
-}
-.float {
-  display: flex;
-  align-self: center;
-  width: 86px;
-  height: 86px;
-  left: 1240px;
-  top: 837px;
 }
 
 .cat-text {
@@ -302,7 +252,6 @@ a :hover {
     border-radius: 5px;
     margin: 8% 0;
 }
-
 
 /* FOOTER */
 
